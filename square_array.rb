@@ -1,7 +1,12 @@
-def square_array(a)
+def square_array(array)
   
-  result = a.collect {|x| x * x }
-  puts result
-  return  result 
+  array.collect {|x| x * x }
   
+  result = Array.new(array.length)
+  counter = 0
+  array.each do | num | 
+    result[counter] = num * num
+    counter += 1
+  end
+  result
 end
