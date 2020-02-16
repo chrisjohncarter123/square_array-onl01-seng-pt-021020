@@ -1,6 +1,7 @@
 def square_array(array)
   
-  puts array.collect {|x| x * x }
-  return ( array.collect {|x| x * x } )
+  array result = array.collect {|x| x * x }
+  puts result
+  return ( result )
   
 end
