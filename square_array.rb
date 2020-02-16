@@ -1,6 +1,6 @@
 def square_array(array)
   
-  #array.collect {|x| x * x }
+  # array.collect {|x| x * x }
   
   result = Array.new(array.length)
   counter = 0
