@@ -1,6 +1,6 @@
-def square_array(array)
+def square_array(a)
   
-  array result = array.collect {|x| x * x }
+  a result = a.collect {|x| x * x }
   puts result
   return  result 
   
